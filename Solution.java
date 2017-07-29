@@ -21,7 +21,7 @@ import java.nio.charset.StandardCharsets;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String fileName =/* "v:\\test.txt";//*/reader.readLine();
+        String fileName =/* "c\\test.txt";//*/reader.readLine();
         //System.out.println(fileName);
         //OutputStream outputStream = new FileOutputStream(fileName);
         BufferedWriter strrInput = new BufferedWriter(new FileWriter(fileName));
